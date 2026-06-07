@@ -1,3 +1,5 @@
+    import java.math.BigDecimal;
+
 public class Main {
     public static void main(String[] args) {
         // Exercício 1
@@ -35,5 +37,10 @@ public class Main {
         Porém, o método equals() compara os valores, 
         então c.equals(d) retorna true.
         */
+
+        // Exercício 4
+        BigDecimal produto = new BigDecimal("49.90");
+        BigDecimal total = produto.multiply(new BigDecimal("3")).multiply(new BigDecimal("0.95"));
+        System.out.println("Total: R$" + total);
     }
 }
