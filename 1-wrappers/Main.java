@@ -6,5 +6,16 @@ public class Main {
         System.out.println(nota); 
         System.out.println(notaobj); 
         System.out.println(notaobj.getClass().getSimpleName());
+
+        // Exercício 2
+        Integer x = null;
+        int y = x;
+        System.out.println(y);
+        /*  
+        O código acima lança uma NullPointerException, 
+        pois o Java tenta fazer um unboxing (converter 
+        integer para int) um objeto Integer que é nulo
+        e primitivos não podem ser nulos.
+        */
     }
 }
