@@ -1,4 +1,4 @@
-package heranca;
+package heranca.exercicio_05;
 
 public class Veiculo {
     private String marca;

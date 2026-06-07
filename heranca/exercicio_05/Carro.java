@@ -1,4 +1,4 @@
-package heranca;
+package heranca.exercicio_05;
 
 public class Carro extends Veiculo {
     private int numPortas;
